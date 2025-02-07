@@ -1,0 +1,83 @@
+/* styles.css */
+
+body {
+    font-family: 'times new roman', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://st3.depositphotos.com/3288471/12957/v/450/depositphotos_129577716-stock-illustration-lace-blue-pattern-elegant-pattern.jpg?forcejpeg=true');
+    color: #333;
+}
+
+header {
+    background-color:#7bc8d8;
+    color: #FFF;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+}
+
+nav ul {
+    list-style:yet;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+section {
+    background-color: #bdf3ff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 1, 0.1);
+}
+#products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    margin: 10px;
+    width: 200px;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+
+footer {
+    background-color: #7bc8d8;
+    color: #F3E3FF;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
